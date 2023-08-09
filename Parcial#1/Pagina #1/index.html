@@ -1,0 +1,170 @@
+<!DOCTYPE html5>
+<html lang="es">
+
+<head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width,">
+        <title>Portal Ingenieria</title>
+        <link rel="icon" type="image/x-icon" href="img/4.png">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--Menu de navegacion-->
+    <div id="contenedor">
+         <!--Cabecera Logotipo-->
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/5.png" alt="Logotipo WEB"> <!--Logotipo-->
+        </div>
+        <a href="#">
+            <h1>Ingeniería en Sistemas de Información y Ciencias de la Computación</h1>
+        </a>
+    </header>
+    <!--Fin Cabecera-->
+    
+    <!--Inicio de Botones-->
+        <nav id="nav">
+                <button class=nav-boton onclick="accion()">Menu</button>
+                <!--Boton de inicio-->
+                        <a href="index.html"class="nav-enlace" class="desaparece">Inicio </a>
+                <!--Boton de Horarios-->
+                   <a href="contenido.html"class="nav-enlace" class="desaparece">Horarios </a>
+                <!--Boton de Pensum-->
+                        <a href="https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf"target = "_blank" class="nav-enlace" class="desaparece" >Pensum </a>
+                <!--Boton de Blackboard-->
+                        <a href="https://umg.blackboard.com/" target = "_blank" class="nav-enlace" class="desaparece">Blackboard</a>
+                <!--Boton de contacto-->
+                        <a href="https://uvirtual.umg.edu.gt/managements" target="_blank" class="nav-enlace" class="desaparece">Gestiones</a>
+                     <!--Boton de Acerca de nosotros-->
+                        <a href="nosotros.html"class="nav-enlace" class="desaparece"v>Acerca de Nosotros</a>
+                    <!--Boton de contacto-->
+                        <a href="Contacto.html"class="nav-enlace" class="desaparece">Contacto</a>
+        </nav> 
+        <script>
+            function accion(){
+                var ancla = document.getElementsByClassName('nav-enlace');
+                for(var i =0; i < ancla.lenght; i++){
+                    ancla[i].classList.toggle('desaparece');
+                }
+            }
+        </script>
+        <!--Fin de navegacion-->
+        
+        <!--Contenido de Central-->
+            <div id="content">
+                <!--Barra lateral-->
+                <aside id="aside">
+                      <!--Reloj-->
+                      <div style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/country/gt"><span style="color:gray;">Hora actual en</span><br />Guatemala</a></h4> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=small&timezone=America%2FGuatemala"
+                        width="100%" height="90" frameborder="0" seamless></iframe> </div>
+                        <!--Widget de Login-->
+                    <div class="widget" id=login>
+                        <h3 class="blue">Ingreso Estudiantes</h3>
+                        <form method="get" action="https://umg.blackboard.com/" target="_blank">
+                            <label>Usuario:</label>
+                            <input type="text">
+                            <label>Contraseña</label>
+                            <input type="password">
+                            <br></br>
+                            <input type="checkbox" name="condiciones" checked="checked"/>
+                            Acepto las condiciones <br/>
+
+                            <input type="submit" value="Entrar" >
+                        </form>
+
+                    </div>
+                    <!--Fin widget login-->
+                    <!--Widget de links de otras facultades-->
+                    <div class="widget" id=login>
+                        <h3>Enlaces Relacionados</h3>
+                        <ul>
+                            <li>
+                                <a href="https://umg.edu.gt/facultades/humanidades/"target="_blank">Facultad de Humanidades</a>
+                            </li>
+                            <li>
+                                <a href="https://umg.edu.gt/facultades/ciencias-medicas-y-de-la-salud/" target="_blank">Facultad de Ciencias Medicas y de Salud</a>
+                            </li>
+                            <li>
+                                <a href="https://arquitectura.umg.edu.gt/" target="_blank">Facultad de Arquitectura</a>
+                            </li>
+                            <li>
+                                <a href="https://umg.edu.gt/facultades/odontologia/" target="_blank">Facultad de Odontologia</a>
+                            </li>
+                            <li>
+                                <a href="https://umg.edu.gt/facultades/psicologia/" target="_blank">Facultad de Psicologia</a>
+                            </li>
+                            <li>
+                                <a href="https://umg.edu.gt/facultades/ciencias-de-la-comunicacion/" target="_blank">Facultad de Ciencias de la Comunicacion</a>
+                            </li>
+                            <li>
+                                <a href="https://umg.edu.gt/" target="_blank">Portal Principal Universidad</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--fin links otras facultades-->
+                </aside>
+                <!--Fin de barra lateral-->
+
+                <!--Contador de visitas-->
+                <div id="sfckc5kgwn9cp3c4e19zb3d4dwf5s7awja8"></div><script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=kc5kgwn9cp3c4e19zb3d4dwf5s7awja8&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter3.stat.ovh/private/contadorvisitasgratis.php?c=kc5kgwn9cp3c4e19zb3d4dwf5s7awja8" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>                <!--Fin de contador de visitas-->
+                <!--Fin contador de visitas-->
+                <div id="sections">
+                    <!--Inicio de seccion 1-->
+                    <section id = "frontend"> 
+    
+                           <h2 class="titulo blue">Licenciaturas</h2>
+                            <article class="article">
+                                <p>
+                                    <h5>
+                                       ~ Administración de Sistemas de Información.
+                                        <br> <p>Ingenierías</p>
+                                        <p>~ Sistemas de Información y Ciencias de la Computación.</p>
+                                    </h5>
+                                    </br>
+                                </p>
+                                
+                            </article>
+                    </section>
+                    <!--Inicio de seccion2-->
+                        <section id = "frontend"> 
+    
+                           <h2 class="titulo blue">Maestrías</h2>
+                            <article class="article">
+                                <p>
+                                    <h5>
+                                         ~ Informática con Énfasis en Banca Electrónica y Comunicaciones.
+                                 </p>
+                                    </h5>
+                                    </br>
+                                </p>
+                                
+                            </article>
+                    </section>
+                   
+                         <!--Inicio de seccion3-->
+                  <section id = "frontend"> 
+                        <h2 class="titulo blue">Doctorado</h2>
+                        <article class="article">
+                            <p>
+                                <h5>
+                                  ~ Ciencias de la Investigación.
+                                </h5>
+                            </p>
+                     
+                    </article>
+                    </section>
+                </div>
+            </div> <!--Fin contenido central-->
+        <!--Inicio de pie de pagina-->
+        <footer id="piepag">
+            <h4>Todos los Derechos Reservados UMG © Grupo 3, Jutiapa</h4>
+        </footer> <!--Fin de pie de pagina-->
+
+    </div> <!--Fin de div principal-->
+
+<!--Fin cuerpo-->
+</body>
+<!--Fin html-->
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html5>
+<html lang="es">
+
+<head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width,">
+        <title>Facultad de Ingenieria</title>
+        <link rel="icon" type="image/x-icon" href="img/5.png">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+        <!--Menu de navegacion-->
+    <div id="contenedor">
+        <!--Cabecera Logotipo-->
+   <header id="header">
+       <div id="logotipo">
+           <img src="img/5.png" alt="Logotipo WEB"> <!--Logotipo-->
+       </div>
+       <a href="#">
+           <h1>Contacto</h1>
+       </a>
+      
+                                   
+   </header>
+   <!--Fin Cabecera-->
+   
+   <!--Inicio de Botones-->
+   <nav id="nav">
+    <button class=nav-boton onclick="accion()">Menu</button>
+    <!--Boton de inicio-->
+            <a href="index.html"class="nav-enlace" class="desaparece">Inicio </a>
+    <!--Boton de Horarios-->
+       <a href="contenido.html"class="nav-enlace" class="desaparece">Horarios </a>
+    <!--Boton de Pensum-->
+            <a href="https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf"target = "_blank" class="nav-enlace" class="desaparece" >Pensum </a>
+    <!--Boton de Blackboard-->
+            <a href="https://umg.blackboard.com/" target = "_blank" class="nav-enlace" class="desaparece">Blackboard</a>
+    <!--Boton de contacto-->
+            <a href="https://uvirtual.umg.edu.gt/managements" target="_blank" class="nav-enlace" class="desaparece">Gestiones</a>
+         <!--Boton de Acerca de nosotros-->
+            <a href="nosotros.html"class="nav-enlace" class="desaparece"v>Acerca de Nosotros</a>
+        <!--Boton de contacto-->
+            <a href="Contacto.html"class="nav-enlace" class="desaparece">Contacto</a>
+</nav> 
+<script>
+function accion(){
+    var ancla = document.getElementsByClassName('nav-enlace');
+    for(var i =0; i < ancla.lenght; i++){
+        ancla[i].classList.toggle('desaparece');
+    }
+}
+</script>
+<!--Fin de navegacion-->
+       <!--Contador de visitas-->
+       <div id="sfckc5kgwn9cp3c4e19zb3d4dwf5s7awja8"></div><script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=kc5kgwn9cp3c4e19zb3d4dwf5s7awja8&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter3.stat.ovh/private/contadorvisitasgratis.php?c=kc5kgwn9cp3c4e19zb3d4dwf5s7awja8" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>                <!--Fin de contador de visitas-->
+       <!--Fin contador de visitas-->
+       <div>   
+        <!--COMENTARIOS-->
+        <!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24xrgcWTGex%2Fiah49G080hK."+"&opts=16862&num=10&ts=1596740238432");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+       </div>
+  
+
+        <!--Inicio de pie de pagina-->
+        <footer id="piepag">
+            <h4>Todos los Derechos Reservados UMG © Grupo 3, Jutiapa</h4>
+        </footer> <!--Fin de pie de pagina-->
+
+    </div> <!--Fin de div principal-->
+
+<!--Fin cuerpo-->
+</body>
+<!--Fin html-->
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html5>
+<html lang="es">
+
+<head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width,">
+        <title>Facultad de Ingenieria</title>
+        <link rel="icon" type="image/x-icon" href="img/5.png">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/responsive.css">
+</head> 
+
+<body>
+    <!--Menu de navegacion-->
+    <div id="contenedor">
+         <!--Cabecera Logotipo-->
+    <header id="header">
+        <div id="logotipo">
+            <img src="img/5.png" alt="Logotipo WEB"> <!--Logotipo-->
+        </div>
+        <a href="#">
+            <h1>Horarios de Atención</h1>
+        </a>
+    </header>
+    <!--Fin Cabecera-->
+    
+   <!--Inicio de Botones-->
+   <nav id="nav">
+    <button class=nav-boton onclick="accion()">Menu</button>
+    <!--Boton de inicio-->
+            <a href="index.html"class="nav-enlace" class="desaparece">Inicio </a>
+    <!--Boton de Horarios-->
+       <a href="contenido.html"class="nav-enlace" class="desaparece">Horarios </a>
+    <!--Boton de Pensum-->
+            <a href="https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf"target = "_blank" class="nav-enlace" class="desaparece" >Pensum </a>
+    <!--Boton de Blackboard-->
+            <a href="https://umg.blackboard.com/" target = "_blank" class="nav-enlace" class="desaparece">Blackboard</a>
+    <!--Boton de contacto-->
+            <a href="https://uvirtual.umg.edu.gt/managements" target="_blank" class="nav-enlace" class="desaparece">Gestiones</a>
+         <!--Boton de Acerca de nosotros-->
+            <a href="nosotros.html"class="nav-enlace" class="desaparece"v>Acerca de Nosotros</a>
+        <!--Boton de contacto-->
+            <a href="Contacto.html"class="nav-enlace" class="desaparece">Contacto</a>
+</nav> 
+<script>
+function accion(){
+    var ancla = document.getElementsByClassName('nav-enlace');
+    for(var i =0; i < ancla.lenght; i++){
+        ancla[i].classList.toggle('desaparece');
+    }
+}
+</script>
+<!--Fin de navegacion-->
+        <!--Contador de visitas-->
+        <div id="sfckc5kgwn9cp3c4e19zb3d4dwf5s7awja8"></div><script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=kc5kgwn9cp3c4e19zb3d4dwf5s7awja8&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter3.stat.ovh/private/contadorvisitasgratis.php?c=kc5kgwn9cp3c4e19zb3d4dwf5s7awja8" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
+        <!--Fin de contador de visitas-->
+        <!--Contenido de Central-->
+            <div id="content">
+                <div id="content">
+                    <!--Barra lateral-->
+                    <aside id="aside">
+                             <!--Reloj-->
+                            <div style="text-align:center;padding:1em 0;"> <h4><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/country/gt"><span style="color:gray;">Hora actual en</span><br />Guatemala</a></h4> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=small&timezone=America%2FGuatemala"
+                             width="100%" height="90" frameborder="0" seamless></iframe> </div>
+
+                             <!--Calendario-->
+                             <iframe src="https://calendar.google.com/calendar/embed?height=204&amp;wkst=1&amp;bgcolor=%23A79B8E&amp;ctz=America%2FGuatemala&amp;src=anNhbmRvdmFsczNAbWl1bWcuZWR1Lmd0&amp;src=Y19iaTB2MnU3ZHBuNjJnaGF2cXJtZzFobXEzZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%23009688&amp;showTitle=0&amp;showTz=0&amp;showCalendars=0&amp;showTabs=0&amp;showPrint=0" style="border:solid 1px #777" width="201" height="204" frameborder="0" scrolling="no"></iframe>                    
+                            
+                             <!--Enlaces-->
+                             <div class="widget" id=login>
+                                <h3>Enlaces Relacionados</h3>
+                                <ul>
+                                    <li>
+                                        <a href="https://umg.edu.gt/facultades/humanidades/"target="_blank">Facultad de Humanidades</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://umg.edu.gt/facultades/ciencias-medicas-y-de-la-salud/" target="_blank">Facultad de Ciencias Medicas y de Salud</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://arquitectura.umg.edu.gt/" target="_blank">Facultad de Arquitectura</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://umg.edu.gt/facultades/odontologia/" target="_blank">Facultad de Odontologia</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://umg.edu.gt/facultades/psicologia/" target="_blank">Facultad de Psicologia</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://umg.edu.gt/facultades/ciencias-de-la-comunicacion/" target="_blank">Facultad de Ciencias de la Comunicacion</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://umg.edu.gt/" target="_blank">Portal Principal Universidad</a>
+                                    </li>
+                                     
+                                </ul>
+                            </div>
+                            </aside>
+                    <!--Fin barra lateral-->
+                <div id="sections">
+                    <!--Inicio de seccion 1-->
+                    <section id = "frontend">
+                            <span class="stickers">
+                                <img class ="sticker1" src="">
+                                <img class="sticker2" src="">
+                            </span>
+                     <h2 class="titulo blue">Edificio I</h2>
+                            <article class="article">
+                                <p>
+                                    <h5><p>Oficina 300</p>
+                                        <p>PBX: (502) 2411-1800</p>
+                                        <p>ext. 1110, 1242</p>
+                                        <p>sistemas@umg.edu.gt</p>
+                                        <br><p> Horario de Atención:</p>
+                                       <p> Lunes a viernes</p>
+                                       <p> 14:00 a 21:00 horas</p></br>
+                                    </h5>
+                                </p>
+                              
+                            </article>
+                    </section>
+                    <!--Inicio de seccion2-->
+                    <section id = "frontend">
+                        <span class="stickers">
+                            <img class ="sticker1" src="">
+                            <img class="sticker2" src="">
+                        </span>
+                        <h2 class="titulo blue">Dirección Diario Matutina</h2>
+                        <article class="article">
+                            <p>
+                                <h5>
+                                    <p>Edificio I</p>
+                                    <p>(Frente a Facultad de Ciencias Médicas y de la Salud)</p>
+                                   <br> <p>Dirección Plan Fin de Semana</p>
+                                    <p>Edificio T, Oficina 420</p>
+                                    <p>PBX: (502) 2411-1800</p>
+                                    <p>Ext. 1190</p></br>
+                                   <p>Horario de Atención:</p>
+                                    <p>Lunes a viernes</p>
+                                    <p>07:30 a 15:00 horas</p>
+                                    <p>Sábado</p>
+                                    <p>07:00 a 16:00 horas</p>
+                                </h5>
+                                </p>
+                              
+                            </article>
+                    </section>
+              
+                     <!--Inicio de seccion 3-->
+                    <section id = "frontend">
+                        <span class="stickers">
+                            <img class ="sticker1" src="">
+                            <img class="sticker2" src="">
+                        </span>
+                        <h2 class="titulo blue">Dirección de Posgrados</h2>
+                        <article class="article">
+                            <p>
+                                <h5>
+                                   <p>3ª. Ave. 20-52 zona 2</p>
+                                   <p>Interior Finca El Zapote</p>
+                                   <p>PBX: (502) 2411-1800</p>
+                                  <p> ext. 2009, 2017</p>
+                                   <br><p> Horario de Atención:</p>
+                                  <p> Lunes a viernes</p>
+                                  <p> 15:00 a 20:00 horas</p>
+                                  <p> Sábados</p>
+                                  <p> 08:00 a 13:00 horas</p>
+                                </h5>
+                            </p>
+                       </br>
+                    </article>
+                    </section>
+                </div>
+            </div>  <!--Fin contenido central-->
+
+        <!--Inicio de pie de pagina-->
+        <footer id="piepag">
+            <h4>Todos los Derechos Reservados UMG © Grupo 3, Jutiapa</h4>
+        </footer> <!--Fin de pie de pagina-->
+
+    </div> <!--Fin de div principal-->
+
+<!--Fin cuerpo-->
+</body>
+
+<!--Fin html-->
+</html>

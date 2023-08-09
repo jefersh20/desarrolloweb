@@ -1,0 +1,329 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-azul-brillante-neon-lineas-placa-circuito_107146-73.jpg);
+}
+
+#titulo{
+    margin-bottom: 10px;
+}
+
+/*Colores*/
+.green{
+    color: #3366FF !important;
+}
+
+.blue{
+    color: blue !important;
+}
+
+/*Cabecera*/
+#header{
+    width: 100%;
+    height: 250px;
+    margin: 0px auto;
+}
+
+#header a{  
+    text-decoration: none;
+}
+
+#header #logotipo{
+    width: 700px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+#header #logotipo img{
+    display: block;
+    margin: 0px auto;
+    width: 130px;
+    border-radius: 999px;
+}
+
+#header h1{
+    text-align: center;
+    font-size: 35px;
+    color: #8D969E  ;
+    font-family: "Arial";
+    letter-spacing: 4px;
+    margin-top: 10px;
+    text-shadow: 0px 2px 1px #5A636A;
+    transition:  all 300ms;
+}
+
+#header h1:hover{
+    text-shadow:  0px 2px 1px #688CA6 , 0px 0px 4px #688CA6 ;
+}
+/*Fin de cabecera*/
+
+/*Botones de Navegacion*/
+.nav-enlace{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nav-enlace:hover{
+    background: blue;
+}
+
+.nav-enlace:active{
+    background: red;
+}
+
+nav{
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-boton{
+    background: sandybrown;
+    color: white;
+    padding: 10px 0;
+    display:none;
+}
+
+/*Menu desplegable*/
+ #nav > ul > li > ul{
+     display: none;
+     position: absolute;
+     width: 160px;
+     box-shadow: 0px 2px 2px blue;
+ }
+
+ #nav > ul > li:hover > ul{
+     display: block;
+ }
+
+#nav > ul > li:hover > ul > li{
+    background-color: #333333;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 15px;
+    transition: all 300ms;
+}
+
+#nav > ul > li:hover > ul > li > a{
+    color: white;
+}
+
+#nav > ul > li:hover > ul > li:hover{
+    box-shadow: 0px 0px 6px #3366FF inset;
+    background-color: blue;
+}
+
+/*CONTENIDO*/
+#content {
+    width: 900px;
+    min-width: 1000px;
+    margin: 0px auto;
+
+
+    
+}
+/*Barra lateral*/
+#aside, #frase{
+    width: 200px;
+    float: left;
+    margin: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 2px #ccc;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+#frase{
+    width: 180px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#aside .widget{
+    display: block;
+    width: 180px;
+    margin: 5px auto;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border-bottom: 1px dashed #ccc;
+}
+
+#aside .widget:last-child{
+    margin-bottom: 20px;
+}
+
+#aside h3{
+    display:block;
+    width: 100%;
+    color: #333333;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    background-color: #f2f3f2;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+#aside li{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    list-style: square;
+}
+
+.clearfix{
+    float:none;
+    clear: both;
+}
+
+/*Formularios Barra Lateral*/
+#aside div label,
+#aside div input[type="text"],
+#aside div input[type="email"],
+#side div input[type="password"],
+#aside div a{
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin:center;
+}
+
+#aside div input[type="button"],
+#aside div input[type="submit"],
+#aside div button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#aside input, label{
+    margin: 0px auto;
+    text-align: center;
+}
+
+/*Secciones*/
+#sections{
+    float:left;
+    width: 50%;
+    font-family: sans-serif, Arial, Helvetica;
+    margin-right: 10px;
+}
+
+
+#sections .titulo{
+    font-family: "Agency FC";
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: -20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#sections section{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9c9;
+    color: #333333;
+    font-size: 16px;
+    overflow: hidden;
+
+}
+
+#sections .article{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:justify;
+}
+
+#sections .date{
+    color: gray;
+    font-size: 14px;
+    margin-left: 75%
+}
+
+#sections .sticker1,
+#sections .sticker2{
+    position: absolute;
+    margin-top: -38px;
+}
+
+#sections .sticker2{
+    margin-left: 860px;
+}
+
+#history{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+
+
+/*Parte de Footer*/
+footer{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #878787;
+    font-size: 15px;
+    box-shadow: 0px 0px 2px #8D969E ;
+    border-radius: 20px;
+    clear: both;
+    background: transparent;
+}
+
+#footer .piepag{
+    text-align: center;
+}
+
+
+
+#logotipo{
+    animation-name: desplazamiento;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazamiento{
+    0%{
+        margin-left: 260px;
+    }
+    50%{
+        margin-left: 700px;
+        rotate: 0deg;
+    }
+    100%{
+        margin-left: 260px;
+    }
+}
+
+   
